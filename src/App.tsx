@@ -1,14 +1,15 @@
+import { Container } from "./components/Container";
 import { Heading } from "./components/Heading";
+import { Logo } from "./components/Logo";
 
 
-
-export const App = () =>  (
-    <div>
-   <Heading>Olá mundo</Heading>
-    <Heading>ajkbdaujdb</Heading>
-    </div>
- 
+export const App = () => {
+  return (
+    <Container>
+      <Logo/>
+    </Container>
   )
+}
 
 
 
